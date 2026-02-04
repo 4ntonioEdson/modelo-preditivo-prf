@@ -47,6 +47,7 @@ flowchart TD
         H[<b>pipelines/pipeline.py</b>]:::orchestrator
     end
 
+
     %% Conexões da Orquestração
     H -.-> B
     H -.-> C
@@ -59,6 +60,8 @@ flowchart TD
         direction LR
         L1[(Dados)]:::data ~~~ L2[Scripts]:::script ~~~ L3[[Modelo]]:::model
     end
+
+```
 
 ## Tecnologias Utilizadas
 
