@@ -24,8 +24,7 @@ Construir um pipeline modular e reprodutível que permita:
 
 * Facilitar futuras evoluções (cloud, Spark, Airflow, etc.)
 
-## Diagrama do Pipeline
-
+```mermaid
 flowchart TD
     %% Definição de Estilos
     classDef data fill:#e1f5fe,stroke:#01579b,color:#000000,stroke-width:2px;
