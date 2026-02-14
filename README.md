@@ -12,6 +12,8 @@ Este projeto tem como objetivo desenvolver um pipeline de Machine Learning ponta
 
 O foco do projeto não é apenas o modelo, mas a arquitetura do pipeline, contemplando ingestão, processamento, feature engineering, treinamento, avaliação e orquestração — seguindo boas práticas utilizadas no mercado.
 
+O ponto de partida desse projeto foi um notebook desenvolvido em 2024 como trabalho de faculdade, com foco em análise e modelagem. Ele cumpria bem seu papel acadêmico, mas era estruturalmente raso do ponto de vista de engenharia.
+
 ## Objetivo
 
 Construir um pipeline modular e reprodutível que permita:
@@ -82,6 +84,18 @@ A análise exploratória dos dados (EDA) está disponível na pasta notebooks/.
 Observação:
 Os notebooks têm caráter exploratório e analítico.
 O pipeline produtivo do projeto está implementado nos módulos em src/ e pipelines/.
+
+## Complemento metodológico 
+
+O estudo estima que a sociedade brasileira perde cerca de R$ 50 bilhões por ano com acidentes de trânsito, com destaque para:
+* perda de produção das vítimas
+* custos hospitalares
+
+No trabalho original, o custo estimado por óbito foi de R$ 433.286,69. Utilizando a Calculadora do Cidadão (IPCA) para correção de 12/2014 até 10/2024 (fator ≈ 2,1447), o valor atualizado chega a aproximadamente R$ 929.365,42.
+
+**Importante reforçar**:
+O objetivo não é precisão econômica, mas coerência metodológica e enriquecimento do contexto analítico do projeto.
+
 
 ## Modelagem
 
@@ -160,3 +174,8 @@ python -m pipelines.pipeline
 ## Observação Final
 
 Este projeto foi originalmente iniciado em notebook e evoluído para uma arquitetura modular e orquestrada, refletindo um fluxo de trabalho mais próximo do ambiente profissional.
+
+
+## Contribuições e Feedback
+
+Sugestões e feedbacks são muito bem-vindos, especialmente relacionados a melhores práticas de MLOps e Engenharia de Dados. Sinta-se à vontade para abrir uma *issue* ou entrar em contato.
